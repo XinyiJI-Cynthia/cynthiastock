@@ -386,15 +386,22 @@ async function fetchPortfolioNews() {
 
   const data = await fetchNewsJson(query, directUrl.toString());
   const articles = Array.isArray(data.articles) ? data.articles : [];
+  const cutoff = Date.now() - state.rangeDays * 24 * 60 * 60 * 1000;
   return articles
     .map((article) => {
-      const match = state.stocks
-        .map((stock) => ({ stock, score: relevanceScore(article, stock) }))
-        .sort((a, b) => b.score - a.score)[0];
+      const directStock = state.stocks.find(
+        (stock) => stock.code === String(article.stockCode || "")
+      );
+      const match = directStock
+        ? { stock: directStock, score: 100 }
+        : state.stocks
+          .map((stock) => ({ stock, score: relevanceScore(article, stock) }))
+          .sort((a, b) => b.score - a.score)[0];
       if (!match || match.score <= 0) return null;
 
       const language = String(article.language || "").toLowerCase();
-      const fallbackBucket = language.includes("chinese") ? "domestic" : "global";
+      const fallbackBucket = article.sourceBucket
+        || (language.includes("chinese") ? "domestic" : "global");
       const normalized = normalizeArticle(article, match.stock, fallbackBucket);
       return {
         ...normalized,
@@ -402,10 +409,23 @@ async function fetchPortfolioNews() {
       };
     })
     .filter((article) => article && article.title && article.url)
+    .filter((article) => !article.timestamp || article.timestamp >= cutoff)
     .slice(0, 36);
 }
 
 async function fetchNewsJson(query, directUrl) {
+  try {
+    const staticUrl = new URL("./data/news.json", window.location.href);
+    staticUrl.searchParams.set("v", String(Math.floor(Date.now() / 300000)));
+    const response = await fetchWithTimeout(staticUrl.toString(), 8000);
+    if (response.ok) {
+      const data = await response.json();
+      if (Array.isArray(data.articles) && data.articles.length) return data;
+    }
+  } catch (staticError) {
+    // The scheduled data file may not exist before the first workflow run.
+  }
+
   const proxyUrl = new URL("./api/news", window.location.href);
   proxyUrl.searchParams.set("query", query);
   proxyUrl.searchParams.set("timespan", `${state.rangeDays}d`);
