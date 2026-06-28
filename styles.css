@@ -438,6 +438,45 @@ button {
   background: var(--mixed-bg);
 }
 
+.signal-pill.pending {
+  color: var(--muted);
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+}
+
+.analysis-source {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.analysis-detail {
+  display: grid;
+  gap: 7px;
+  margin: 10px 0 0;
+}
+
+.analysis-detail > div {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.analysis-detail dt {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.analysis-detail dd {
+  min-width: 0;
+  margin: 0;
+  color: #37413f;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .item-meta {
   justify-content: flex-start;
   flex-wrap: wrap;
