@@ -393,7 +393,7 @@ async function fetchPortfolioNews() {
         (stock) => stock.code === String(article.stockCode || "")
       );
       const match = directStock
-        ? { stock: directStock, score: 100 }
+        ? { stock: directStock, score: relevanceScore(article, directStock) }
         : state.stocks
           .map((stock) => ({ stock, score: relevanceScore(article, stock) }))
           .sort((a, b) => b.score - a.score)[0];
