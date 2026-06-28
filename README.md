@@ -19,7 +19,11 @@
 
 2. GitHub Pages
 
-   适合已经有 GitHub 账号的情况。新建公开仓库，上传本文件夹里的文件，在仓库 `Settings -> Pages` 里选择 `Deploy from a branch`，分支选 `main`，目录选 `/root`。发布后会得到一个 `https://用户名.github.io/仓库名/` 地址。GitHub Pages 不运行 `_worker.js`，页面会回退到浏览器直连公开接口。
+   当前项目已部署到：
+
+   <https://xinyiji-cynthia.github.io/cynthiastock/>
+
+   GitHub Actions 每天北京时间 `08:15` 和 `16:15` 自动更新国内外新闻。网页直接读取生成的 `data/news.json`，手机不需要连接运行本项目的电脑。
 
 3. Netlify Drop
 
@@ -38,11 +42,14 @@
 - `service-worker.js`：缓存网页壳，不缓存外部新闻和行情。
 - `site-icon.svg`：手机主屏幕图标。
 - `_worker.js`：Cloudflare Pages 同源 API，处理新闻和行情代理。
+- `scripts/update_news.py`：从公开中英文新闻 RSS 收集候选信息。
+- `.github/workflows/update-news.yml`：定时运行新闻更新任务。
+- `data/news.json`：供网页读取的定时新闻数据。
 
 ## 信息来源
 
 - 行情：优先读取公开行情脚本接口。
-- 新闻：读取 GDELT DOC API 的公开新闻索引，分别用中文和英文关键词查询。
+- 新闻：GitHub Actions 定时读取 Google 新闻公开 RSS，使用股票中英文名称分别查询；GDELT 仅作为静态数据不可用时的后备来源。
 - 公司公告入口：默认指向交易所公司资料或公告入口。
 
 页面只展示公开来源和规则化标签，不凭空编写新闻内容。利好 / 利空标签来自标题关键词命中，例如“中标、回购、业绩预增、价格上涨”偏利好，“减持、处罚、亏损、价格下跌、制裁”偏利空。没有明确命中的信息标为中性。
