@@ -138,7 +138,17 @@ const signalText = {
   positive: "利好",
   negative: "利空",
   neutral: "中性",
-  mixed: "多空都有"
+  mixed: "多空都有",
+  pending: "待判断"
+};
+
+const AI_NATURE_TYPES = {
+  "明显利好": "positive",
+  "偏利好": "positive",
+  "中性": "neutral",
+  "偏利空": "negative",
+  "明显利空": "negative",
+  "无法判断": "pending"
 };
 
 const els = {};
@@ -485,6 +495,14 @@ function normalizeArticle(article, stock, sourceBucket) {
     domain,
     language,
     sourceCountry,
+    aiNature: article.aiNature || "",
+    aiConfidence: article.aiConfidence || "",
+    aiScope: article.aiScope || "",
+    aiReason: article.aiReason || "",
+    aiImpact: article.aiImpact || "",
+    aiSuggestion: article.aiSuggestion || "",
+    aiModel: article.aiModel || "",
+    aiAnalyzedAt: article.aiAnalyzedAt || "",
     timestamp,
     seenAt: timestamp ? new Date(timestamp) : null
   };
@@ -514,6 +532,9 @@ function relevanceScore(article, stock) {
 }
 
 function classifyArticle(article, stock) {
+  const aiSignal = buildAiSignal(article);
+  if (aiSignal) return aiSignal;
+
   const text = normalizeText(`${article.title} ${article.domain}`);
   const stockRules = STOCK_RULES[stock.code] || { positive: [], negative: [] };
   const positives = collectRuleHits(text, [...COMMON_RULES.positive, ...stockRules.positive]);
@@ -523,6 +544,7 @@ function classifyArticle(article, stock) {
     return {
       type: "mixed",
       label: signalText.mixed,
+      source: "rules",
       terms: uniqueTerms([...positives, ...negatives]).slice(0, 5),
       reason: `同时命中利好和利空词：${formatReasons([...positives, ...negatives])}`
     };
@@ -531,6 +553,7 @@ function classifyArticle(article, stock) {
     return {
       type: "positive",
       label: signalText.positive,
+      source: "rules",
       terms: uniqueTerms(positives).slice(0, 5),
       reason: `命中利好词：${formatReasons(positives)}`
     };
@@ -539,15 +562,39 @@ function classifyArticle(article, stock) {
     return {
       type: "negative",
       label: signalText.negative,
+      source: "rules",
       terms: uniqueTerms(negatives).slice(0, 5),
       reason: `命中利空词：${formatReasons(negatives)}`
     };
   }
   return {
-    type: "neutral",
-    label: signalText.neutral,
+    type: "pending",
+    label: signalText.pending,
+    source: "rules",
     terms: [],
-    reason: "未命中明确多空关键词，仅列为公开信息。"
+    reason: "AI尚未完成逐条研判；关键词规则也未给出明确方向。"
+  };
+}
+
+function buildAiSignal(article) {
+  const nature = String(article.aiNature || "").trim();
+  if (!nature) return null;
+  const type = AI_NATURE_TYPES[nature] || "pending";
+  const terms = [
+    article.aiScope ? { term: article.aiScope, reason: "影响范围" } : null,
+    article.aiConfidence ? { term: `置信度：${article.aiConfidence}`, reason: "模型置信度" } : null
+  ].filter(Boolean);
+  return {
+    type,
+    label: nature,
+    source: "ai",
+    terms,
+    reason: article.aiReason || "模型未提供判断依据。",
+    impact: article.aiImpact || "尚无清晰影响路径。",
+    suggestion: article.aiSuggestion || "等待更多公开信息确认。",
+    confidence: article.aiConfidence || "低",
+    scope: article.aiScope || "待核验",
+    model: article.aiModel || "GitHub Models"
   };
 }
 
@@ -649,23 +696,24 @@ function renderSummary() {
   const visible = filteredItems();
   const positive = scoped.filter((item) => item.signal.type === "positive").length;
   const negative = scoped.filter((item) => item.signal.type === "negative").length;
-  const neutral = scoped.filter((item) => item.signal.type === "neutral" || item.signal.type === "mixed").length;
+  const neutral = scoped.filter((item) => ["neutral", "mixed", "pending"].includes(item.signal.type)).length;
+  const aiCount = scoped.filter((item) => item.signal.source === "ai").length;
   const latest = scoped[0]?.seenAt ? formatDateTime(scoped[0].seenAt) : "暂无";
   els.summaryGrid.innerHTML = `
     <article class="summary-card">
       <div class="summary-label">利好消息</div>
       <div class="summary-value">${positive}</div>
-      <div class="summary-note">按标题关键词规则标注</div>
+      <div class="summary-note">AI逐条研判 · 共 ${aiCount} 条</div>
     </article>
     <article class="summary-card">
       <div class="summary-label">利空消息</div>
       <div class="summary-value">${negative}</div>
-      <div class="summary-note">按标题关键词规则标注</div>
+      <div class="summary-note">区分基本面与交易信号</div>
     </article>
     <article class="summary-card">
       <div class="summary-label">当前筛选</div>
       <div class="summary-value">${visible.length}</div>
-      <div class="summary-note">最新：${escapeHtml(latest)} · 中性 ${neutral}</div>
+      <div class="summary-note">最新：${escapeHtml(latest)} · 中性/待确认 ${neutral}</div>
     </article>
   `;
 }
@@ -702,10 +750,35 @@ function renderFeed() {
         <span>${escapeHtml(item.domain || "来源未知")}</span>
         <span>${item.seenAt ? escapeHtml(formatDateTime(item.seenAt)) : "时间未知"}</span>
       </div>
-      <p class="reason">${escapeHtml(item.signal.reason)}</p>
+      ${renderAnalysis(item.signal)}
       ${renderTags(item.signal.terms)}
     </article>
   `).join("");
+}
+
+function renderAnalysis(signal) {
+  if (signal.source !== "ai") {
+    return `
+      <div class="analysis-source">规则后备标签</div>
+      <p class="reason">${escapeHtml(signal.reason)}</p>
+    `;
+  }
+  return `
+    <dl class="analysis-detail">
+      <div>
+        <dt>判断依据</dt>
+        <dd>${escapeHtml(signal.reason)}</dd>
+      </div>
+      <div>
+        <dt>影响路径</dt>
+        <dd>${escapeHtml(signal.impact)}</dd>
+      </div>
+      <div>
+        <dt>观察建议</dt>
+        <dd>${escapeHtml(signal.suggestion)}</dd>
+      </div>
+    </dl>
+  `;
 }
 
 function renderTags(terms) {
@@ -741,7 +814,7 @@ function filteredItems() {
     if (item.stockId !== state.activeStockId) return false;
     if (state.sourceFilter !== "all" && item.sourceBucket !== state.sourceFilter) return false;
     if (state.signalFilter === "all") return true;
-    if (state.signalFilter === "neutral") return item.signal.type === "neutral" || item.signal.type === "mixed";
+    if (state.signalFilter === "neutral") return ["neutral", "mixed", "pending"].includes(item.signal.type);
     return item.signal.type === state.signalFilter;
   });
 }
