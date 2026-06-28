@@ -1,0 +1,19 @@
+{
+  "name": "股票每日信息台",
+  "short_name": "股票信息",
+  "description": "移动端股票行情、公开消息与利好利空规则标注。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f8",
+  "theme_color": "#0f766e",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "site-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
