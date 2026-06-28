@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import time
 import urllib.parse
 import urllib.request
@@ -14,15 +15,19 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
 USER_AGENT = "Mozilla/5.0 (compatible; PersonalStockBrief/1.0)"
+MODEL_ENDPOINT = "https://models.github.ai/inference/chat/completions"
+MODEL_NAME = "openai/gpt-4.1"
 
 STOCKS = [
     {
         "code": "600031",
+        "name": "三一重工",
         "domestic": '"三一重工" when:30d',
         "global": '"SANY Heavy Industry" when:30d',
     },
     {
         "code": "600111",
+        "name": "北方稀土",
         "domestic": '"北方稀土" when:30d',
         "global": '"China Northern Rare Earth" when:30d',
     },
@@ -51,7 +56,7 @@ def fetch_feed(stock_code: str, bucket: str, query: str) -> list[dict[str, str]]
         root = ET.fromstring(response.read())
 
     articles: list[dict[str, str]] = []
-    for item in root.findall("./channel/item")[:25]:
+    for item in root.findall("./channel/item")[:15]:
         title = text(item, "title")
         link = text(item, "link")
         published = text(item, "pubDate")
@@ -83,6 +88,135 @@ def fetch_feed(stock_code: str, bucket: str, query: str) -> list[dict[str, str]]
     return articles
 
 
+def fallback_analysis(article: dict[str, str], message: str) -> None:
+    article.update(
+        {
+            "aiNature": "无法判断",
+            "aiConfidence": "低",
+            "aiScope": "待核验",
+            "aiReason": message,
+            "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
+            "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。",
+        }
+    )
+
+
+def request_ai_analysis(
+    stock: dict[str, str],
+    articles: list[dict[str, str]],
+    token: str,
+) -> dict[str, dict[str, str]]:
+    indexed_items = [
+        {
+            "id": f"{stock['code']}-{index}",
+            "title": article["title"],
+            "source": article.get("domain", ""),
+            "publishedAt": article.get("seendate", ""),
+            "sourceBucket": article.get("sourceBucket", ""),
+        }
+        for index, article in enumerate(articles)
+    ]
+    system_prompt = """
+你是严谨的中国A股公开信息分析助手。只能依据给定的新闻标题、来源、时间和目标股票作判断，不能补写标题中没有的事实。
+每一条都必须返回结果，并严格区分：
+1. 公司基本面：目标公司的订单、业绩、产能、成本、治理、监管、诉讼等。
+2. 行业：可能通过需求、供给或价格传导到目标公司。
+3. 市场交易：股价涨跌、资金流、融资交易等，只能视为短期交易信号，不能当作基本面利好或利空。
+4. 无关：同行公司自身事项或与目标股票没有清晰传导关系。
+
+性质只能使用：明显利好、偏利好、中性、偏利空、明显利空、无法判断。
+建议必须是非个性化观察建议，只能使用关注、等待公告确认、警惕短期波动、避免依据单条未证实消息交易等表述，禁止给出确定买入、卖出、目标价或收益预测。
+输出纯 JSON 对象，格式：
+{"items":[{"id":"原id","scope":"公司基本面|行业|市场交易|无关|待核验","nature":"六种性质之一","confidence":"高|中|低","reason":"判断依据","impact":"可能的影响路径；无清晰路径时明确说明","suggestion":"非个性化观察建议"}]}
+""".strip()
+    user_payload = {
+        "stock": {"code": stock["code"], "name": stock["name"]},
+        "items": indexed_items,
+    }
+    body = {
+        "model": MODEL_NAME,
+        "temperature": 0.1,
+        "max_tokens": 9000,
+        "response_format": {"type": "json_object"},
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {
+                "role": "user",
+                "content": json.dumps(user_payload, ensure_ascii=False),
+            },
+        ],
+    }
+    request = urllib.request.Request(
+        MODEL_ENDPOINT,
+        data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
+        headers={
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": USER_AGENT,
+            "X-GitHub-Api-Version": "2026-03-10",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=120) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+
+    content = payload["choices"][0]["message"]["content"]
+    parsed = json.loads(content)
+    return {
+        str(item.get("id", "")): item
+        for item in parsed.get("items", [])
+        if item.get("id")
+    }
+
+
+def analyze_articles(
+    articles: list[dict[str, str]],
+    errors: list[str],
+) -> None:
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    analyzed_at = datetime.now(timezone.utc).isoformat()
+
+    for stock in STOCKS:
+        stock_articles = [
+            article for article in articles if article["stockCode"] == stock["code"]
+        ]
+        for article in stock_articles:
+            fallback_analysis(article, "AI分析任务尚未返回有效结果。")
+
+        if not token or not stock_articles:
+            if not token:
+                errors.append(f"{stock['code']} AI: GITHUB_TOKEN unavailable")
+            continue
+
+        try:
+            results = request_ai_analysis(stock, stock_articles, token)
+            for index, article in enumerate(stock_articles):
+                result = results.get(f"{stock['code']}-{index}")
+                if not result:
+                    continue
+                article.update(
+                    {
+                        "aiNature": result.get("nature", "无法判断"),
+                        "aiConfidence": result.get("confidence", "低"),
+                        "aiScope": result.get("scope", "待核验"),
+                        "aiReason": result.get("reason", "模型未提供判断依据。"),
+                        "aiImpact": result.get(
+                            "impact",
+                            "模型未提供清晰的影响路径。",
+                        ),
+                        "aiSuggestion": result.get(
+                            "suggestion",
+                            "等待更多公开信息确认。",
+                        ),
+                        "aiModel": MODEL_NAME,
+                        "aiAnalyzedAt": analyzed_at,
+                    }
+                )
+        except Exception as error:
+            errors.append(f"{stock['code']} AI: {error}")
+
+
 def main() -> None:
     articles: list[dict[str, str]] = []
     errors: list[str] = []
@@ -102,10 +236,13 @@ def main() -> None:
     for article in articles:
         deduped[(article["stockCode"], article["url"])] = article
 
+    deduped_articles = list(deduped.values())
+    analyze_articles(deduped_articles, errors)
+
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "articles": sorted(
-            deduped.values(),
+            deduped_articles,
             key=lambda article: article.get("seendate", ""),
             reverse=True,
         ),
