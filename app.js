@@ -419,6 +419,7 @@ async function fetchPortfolioNews() {
       };
     })
     .filter((article) => article && article.title && article.url)
+    .filter((article) => article.signal.scope !== "无关")
     .filter((article) => !article.timestamp || article.timestamp >= cutoff)
     .slice(0, 36);
 }
