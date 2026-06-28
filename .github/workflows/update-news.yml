@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   update-news:
@@ -22,6 +23,8 @@ jobs:
 
       - name: Collect public news feeds
         run: python scripts/update_news.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit updated data
         run: |
