@@ -1,23 +1,41 @@
 {
-  "generatedAt": "2026-07-26T09:02:25.734309+00:00",
+  "generatedAt": "2026-07-27T03:59:31.057858+00:00",
   "articles": [
     {
+      "stockCode": "600111",
+      "sourceBucket": "global",
+      "title": "[Big read] How China weaponised its rare earth monopoly - ThinkChina",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUJ4TnY4bGpQeFg3Z0d0cnJYb0JRdDMwZkhldndnN19IeFg0bnR4WWs1c19vS1Zad0pEMEt1RVBSWXRCY0dZRDJOSGI4cFdRNGxNSFNHTUpZZ0VRQ053M0NKal9PZFYxd0VmQ2pjeUUzemFuTTN0YzRLaWRENnRBS0VIcUNjaEVnb1RkYkNjYWhPUQ?oc=5",
+      "domain": "thinkchina.sg",
+      "language": "English",
+      "sourcecountry": "",
+      "seendate": "2026-07-26T13:58:17+00:00",
+      "aiNature": "偏利好",
+      "aiConfidence": "中",
+      "aiScope": "行业",
+      "aiReason": "中国稀土行业垄断被强化，可能提升国内企业议价能力。",
+      "aiImpact": "行业供给收紧，利于北方稀土。",
+      "aiSuggestion": "关注政策及行业动态。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
       "stockCode": "600031",
-      "sourceBucket": "domestic",
-      "title": "三一重工(06031)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBKakZ3VmtETTlkSThHNTNwZDBlRS1SYjVJa3ZWVTVIY1Vzc19NVkpUaU9vVWVjRWotYzdBU1dkMA?oc=5",
-      "domain": "xueqiu.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-07-25T00:45:01+00:00",
+      "sourceBucket": "global",
+      "title": "Sany Heavy Industry Co., Ltd. Class H Revenue Breakdown – FWB:1741 - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OLXktU1Y0d3NNclRmWlhLVWdER19GU1pZNXpUWmszbEFhSmVuQmlVbUN3WDVFZ2Faa201Vm5YaENwS0FLdVdmVDJGSFBHQ3BuWG5JLXFJM21fUnNJcHpSdTJZMUowUVhfWjZ5M0RtdlJJek0?oc=5",
+      "domain": "tradingview.com",
+      "language": "English",
+      "sourcecountry": "",
+      "seendate": "2026-07-26T09:12:45+00:00",
       "aiNature": "中性",
       "aiConfidence": "高",
       "aiScope": "无关",
-      "aiReason": "标题为股票行情、讨论、资讯等集合，未涉及具体基本面或行业信息。",
+      "aiReason": "涉及H股收入分拆，与A股上市公司无直接传导关系。",
       "aiImpact": "无清晰影响路径。",
-      "aiSuggestion": "关注正式公告或具体财报信息。",
+      "aiSuggestion": "关注A股公司公告，避免依据无关信息交易。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -27,33 +45,87 @@
       "domain": "moomoo.com",
       "language": "English",
       "sourcecountry": "",
-      "seendate": "2026-07-24T11:26:48+00:00",
+      "seendate": "2026-07-24T14:08:29+00:00",
       "aiNature": "偏利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "计划回购A股4-8亿元，显示公司治理积极。",
-      "aiImpact": "回购计划有助于提升市场信心，但需关注实际执行情况。",
-      "aiSuggestion": "关注回购计划进展及公告确认。",
+      "aiReason": "回购A股股份计划，明确金额，通常利好公司基本面。",
+      "aiImpact": "回购股份可提升每股收益、增强投资者信心。",
+      "aiSuggestion": "关注回购方案实施进展。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
       "sourceBucket": "domestic",
-      "title": "三一重工：拟以4亿元至8亿元回购股份用于A股员工持股计划 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wR2ZpM3lzOUhURE5wbUpoTWF1Nk82MXBwVFFPcjlPOTB5Z3JNTXRpNkxPclVfSHVDeVZHVTZyaFlVQzJkOTF5Y0E2WDZKSmw5RXhqVVA1S251RTd0RFg5VlNRWW1VcGFrajVWTVNB?oc=5",
-      "domain": "cj.sina.cn",
+      "title": "大宗交易：三一重工成交3876.00万元，折价1.02%（7-24） - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBScUxBVXZsSFYzX2pDbG5HUy1aMFRIeWhGemtNM1VUMXo1VmJvZF9mbUxRcENGSFlBZVdwWnFVamQ3ZXZoNF9fd05BcTJCV1Iydm1oNHhvMFNFN1Q4UUhQbQ?oc=5",
+      "domain": "wap.eastmoney.com",
       "language": "Chinese",
       "sourcecountry": "China",
-      "seendate": "2026-07-24T09:38:09+00:00",
+      "seendate": "2026-07-24T12:08:13+00:00",
       "aiNature": "中性",
+      "aiConfidence": "中",
+      "aiScope": "市场交易",
+      "aiReason": "大宗交易折价成交，属于市场交易行为，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期流动性变化，无基本面影响。",
+      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作决策。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600031",
+      "sourceBucket": "domestic",
+      "title": "三一重工：拟以4亿元至8亿元回购股份 - finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ldVlNR2kzQ1Vkc3UtUnBzdW9OdDA2bGhjYzBVWk8xUWpiS2VkQXZKbmgxVFRqbUVfREZhN1BPaTBESmd6TWJ5WUY2LXhrVjVBVmQ3Sk82ajBkTG5NcUt1RXpndHE4VF9vRnlGcTVpMnp3ZWlyb3BFdA?oc=5",
+      "domain": "finance.sina.com.cn",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-07-24T10:58:00+00:00",
+      "aiNature": "偏利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "拟回购股份用于员工持股计划，属于治理优化，通常对基本面影响有限。",
-      "aiImpact": "有助于员工激励，但未必显著影响收入或利润。",
-      "aiSuggestion": "关注回购计划落地及后续公告。",
+      "aiReason": "拟回购股份，虽尚未落地，但已明确计划金额，通常利好公司股价和市场信心。",
+      "aiImpact": "回购股份可提升每股收益、增强投资者信心。",
+      "aiSuggestion": "关注回购进展，等待公告确认。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600031",
+      "sourceBucket": "domestic",
+      "title": "三一重工(600031):三一重工股份有限公司关于以集中竞价交易方式回购A股股份方案的公告暨回购报告书 - 中财网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyalZ5S205ajJzUTFTeGV0TmxmZjFzWGZJaEhTdE5EVTVoR0RfN0hPNWZNWEc2V2ZaZ0U0TnJtb2pBSDQzaEVkZlVwcjFaRjZiQXozakpR?oc=5",
+      "domain": "cfi.net.cn",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-07-24T10:45:48+00:00",
+      "aiNature": "偏利好",
+      "aiConfidence": "高",
+      "aiScope": "公司基本面",
+      "aiReason": "公司发布回购方案公告，明确回购金额和方式，通常利好公司基本面。",
+      "aiImpact": "回购股份可提升每股收益、增强投资者信心。",
+      "aiSuggestion": "关注回购方案实施进展。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600031",
+      "sourceBucket": "global",
+      "title": "Sany Heavy Industry Plans A-Share Buyback - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQalIyLWZPaWJGZXVsZEJQcEsxcFpKbkloZlZyUUpFODYwLWdUUkRpYm5sWlZwY1BQRXFEdHJTVi15YklnSll3ejlMdGRzU2N2Y2FNQ1BJLWdTUTdYclN0NHlzc2d1a0VnaVNvbE92a19HT2hpT3FSUzc0YzVwYnNyZmpkT0R1Y0hYb0dGWTM3ZmJfQ1hVcWdaNFNod2Z2SWpLdW42Sl8wTHZwT2RHZklqUQ?oc=5",
+      "domain": "tradingview.com",
+      "language": "English",
+      "sourcecountry": "",
+      "seendate": "2026-07-24T09:39:02+00:00",
+      "aiNature": "偏利好",
+      "aiConfidence": "高",
+      "aiScope": "公司基本面",
+      "aiReason": "A股回购计划，明确金额，通常利好公司基本面。",
+      "aiImpact": "回购股份可提升每股收益、增强投资者信心。",
+      "aiSuggestion": "关注回购方案实施进展。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -67,11 +139,11 @@
       "aiNature": "偏利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "公司宣布8000万元回购计划，显示治理积极。",
-      "aiImpact": "回购计划有助于提升市场信心，但需关注实际执行情况。",
-      "aiSuggestion": "关注回购计划进展及公告确认。",
+      "aiReason": "公司宣布回购股份，明确金额，通常利好公司基本面。",
+      "aiImpact": "回购股份可提升每股收益、增强投资者信心。",
+      "aiSuggestion": "关注回购方案实施进展。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -82,32 +154,14 @@
       "language": "English",
       "sourcecountry": "",
       "seendate": "2026-07-24T06:43:09+00:00",
-      "aiNature": "无关",
-      "aiConfidence": "中",
+      "aiNature": "无法判断",
+      "aiConfidence": "低",
       "aiScope": "无关",
-      "aiReason": "报道为北方矿业投资网络及与中国稀土行业的联系，未涉及北方稀土具体事项。",
-      "aiImpact": "无清晰传导路径。",
-      "aiSuggestion": "无需关注。",
+      "aiReason": "涉及Northern Minerals投资网络及与中国稀土行业的联系，未明确传导至北方稀土。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注行业动态，等待更多信息。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600111",
-      "sourceBucket": "global",
-      "title": "Behind Closed Doors in Beijing, China's Industrial Bosses Get Their Orders: Why the West Should Fear SASAC's Long Game - Rare Earth Exchanges",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUjlNTVFqOXVwWUF0QS1yVUJYNXhySUJwc2xMSlNLQ2xJZjRsUTFDWEhvQkRwbklTNE55VGFSQXZDMzYzSkZVY2tyei0xMkcxRk1DZ3BJNExwcXNON0xaenBRNFlVVUZhdFd0b2c1ZHJHc0JWZkY2Y2htWmVvS0plQ2hqazNZRlJYbTV6SW8tQ1ZWZ3lBcEhuQnpVSFFTejR0R3Z4SUdHOUpOdGNEaUxjT0JMajVGV1NXRXpFNHNnLVdpQ1lyWndpNHRCX3hpeUxHMVdhc25UeGNKZzZpR0djM0pqbWJzdw?oc=5",
-      "domain": "rareearthexchanges.com",
-      "language": "English",
-      "sourcecountry": "",
-      "seendate": "2026-07-24T05:00:35+00:00",
-      "aiNature": "中性",
-      "aiConfidence": "中",
-      "aiScope": "行业",
-      "aiReason": "中国工业主管部门战略规划，未涉及北方稀土具体业绩或订单变化。",
-      "aiImpact": "行业政策方向，短期无量化影响。",
-      "aiSuggestion": "关注政策落地及行业影响。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -119,13 +173,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-24T04:30:40+00:00",
       "aiNature": "偏利好",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "工程机械股早盘活跃，三一重工涨近4%，属于短期市场交易信号。",
+      "aiReason": "工程机械股早盘表现活跃，三一重工涨近4%，属于短期市场交易信号。",
       "aiImpact": "短期股价上涨，不能据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，关注基本面变化。",
+      "aiSuggestion": "关注行业动态，警惕短期波动。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -139,65 +193,11 @@
       "aiNature": "偏利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "公司授权回购计划，显示治理积极。",
-      "aiImpact": "回购计划有助于提升市场信心，但需关注实际执行情况。",
-      "aiSuggestion": "关注回购计划进展及公告确认。",
+      "aiReason": "公司授权回购计划，通常利好公司基本面。",
+      "aiImpact": "回购股份可提升每股收益、增强投资者信心。",
+      "aiSuggestion": "关注回购方案实施进展。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600031",
-      "sourceBucket": "domestic",
-      "title": "三一重工今日大宗交易折价成交271.48万股 成交额5367.07万元 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tZHlBTGVGRVVzYTRGMDhkamU1ZUM5UC1qYUNaZ0ktN2hiaHhtd3BxS3YxRFI1QzJvWXlQSTZvYzhtUFpWZndjRjg1dXp1R0l2SWxjZ2F5RElaYzM0VEhuaQ?oc=5",
-      "domain": "wap.eastmoney.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-07-23T09:30:23+00:00",
-      "aiNature": "中性",
-      "aiConfidence": "高",
-      "aiScope": "市场交易",
-      "aiReason": "大宗交易折价成交，属于市场交易行为，未涉及基本面变化。",
-      "aiImpact": "短期可能影响流动性或股价，但无法据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作基本面判断。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600031",
-      "sourceBucket": "domestic",
-      "title": "三一重工(06031)_三一重工怎么样 - 热门讨论 - 雪球",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5UQXotaWFXM2N3QVV0MTFvTlFjS0VEUUp2a2FYSDhHVnJmbmlOaWpobFk3Qk5CckxQRVJrdy11ZHo2MG1BX1E?oc=5",
-      "domain": "xueqiu.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-07-23T06:40:21+00:00",
-      "aiNature": "中性",
-      "aiConfidence": "高",
-      "aiScope": "无关",
-      "aiReason": "标题为热门讨论，未涉及具体公司基本面、行业或市场交易信息。",
-      "aiImpact": "无清晰影响路径。",
-      "aiSuggestion": "关注后续正式公告或权威报道。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600111",
-      "sourceBucket": "global",
-      "title": "[Big read] How China weaponised its rare earth monopoly - ThinkChina",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUJ4TnY4bGpQeFg3Z0d0cnJYb0JRdDMwZkhldndnN19IeFg0bnR4WWs1c19vS1Zad0pEMEt1RVBSWXRCY0dZRDJOSGI4cFdRNGxNSFNHTUpZZ0VRQ053M0NKal9PZFYxd0VmQ2pjeUUzemFuTTN0YzRLaWRENnRBS0VIcUNjaEVnb1RkYkNjYWhPUQ?oc=5",
-      "domain": "thinkchina.sg",
-      "language": "English",
-      "sourcecountry": "",
-      "seendate": "2026-07-23T05:58:22+00:00",
-      "aiNature": "偏利好",
-      "aiConfidence": "中",
-      "aiScope": "行业",
-      "aiReason": "中国稀土垄断被“武器化”，可能提升国内稀土企业议价能力。",
-      "aiImpact": "政策影响可能提升国内稀土价格和需求，利好北方稀土。",
-      "aiSuggestion": "关注政策落地及价格变化。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -209,13 +209,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-23T03:57:43+00:00",
       "aiNature": "中性",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "融资净买入及余额数据为市场交易信号，未涉及基本面变化。",
-      "aiImpact": "短期资金流入，不能据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，关注基本面信息。",
+      "aiReason": "融资净买入及余额数据，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期资金流动，无基本面影响。",
+      "aiSuggestion": "关注资金流动趋势，避免依据单条数据交易。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -227,13 +227,13 @@
       "sourcecountry": "",
       "seendate": "2026-07-22T20:05:00+00:00",
       "aiNature": "无关",
-      "aiConfidence": "中",
+      "aiConfidence": "高",
       "aiScope": "无关",
-      "aiReason": "中日经济热线建议，未涉及北方稀土具体事项。",
-      "aiImpact": "无清晰传导路径。",
-      "aiSuggestion": "无需关注。",
+      "aiReason": "中日经济热线建议，未涉及稀土行业或北方稀土。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注行业动态。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -244,14 +244,14 @@
       "language": "English",
       "sourcecountry": "",
       "seendate": "2026-07-22T16:26:52+00:00",
-      "aiNature": "中性",
+      "aiNature": "偏利好",
       "aiConfidence": "中",
       "aiScope": "行业",
-      "aiReason": "稀土行业高端材料规划，未涉及具体业绩或订单变化。",
-      "aiImpact": "行业发展方向，短期无量化影响。",
-      "aiSuggestion": "关注行业发展趋势。",
+      "aiReason": "稀土行业规划高端材料发展，利于行业需求。",
+      "aiImpact": "行业需求提升，利于北方稀土。",
+      "aiSuggestion": "关注行业发展及公司业务拓展。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -263,13 +263,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-22T09:36:33+00:00",
       "aiNature": "中性",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "大宗交易折价成交，属于市场交易行为，未涉及基本面变化。",
-      "aiImpact": "短期可能影响流动性或股价，但无法据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作基本面判断。",
+      "aiReason": "大宗交易折价成交，属于市场交易行为，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期流动性变化，无基本面影响。",
+      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作决策。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -281,13 +281,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-22T09:22:30+00:00",
       "aiNature": "中性",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "大宗交易折价成交，属于市场交易行为，未涉及基本面变化。",
-      "aiImpact": "短期可能影响流动性或股价，但无法据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作基本面判断。",
+      "aiReason": "大宗交易折价成交，属于市场交易行为，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期流动性变化，无基本面影响。",
+      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作决策。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -301,47 +301,11 @@
       "aiNature": "偏利好",
       "aiConfidence": "中",
       "aiScope": "行业",
-      "aiReason": "中国稀土制造商推动可持续先进材料供应，行业景气度提升。",
-      "aiImpact": "行业景气提升有利于北方稀土业务发展。",
-      "aiSuggestion": "关注行业景气度变化。",
+      "aiReason": "中国稀土制造商推动可持续高端材料供应，利于行业需求。",
+      "aiImpact": "行业需求提升，利于北方稀土。",
+      "aiSuggestion": "关注行业发展及公司业务拓展。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600031",
-      "sourceBucket": "domestic",
-      "title": "三一重工董事长提议最高8亿回购 海外贡献逾六成营收总资产1745亿 - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVE0VE5xRHp3SHE4ZTMyd3hfQUN0YUVaZWVNVEh0eUhaWlY3clpBV3VyU2t1NjdzQlRCd21IQ05jODh3Q09ycUcxc3pCM3dQdTE3SHRhejhIRWpSdm9xb3AtNUpOWWtDNDVlcUhSMHNGX1gtYWlLUXB5djBxa3B6M2otelRBYnNOREE?oc=5",
-      "domain": "cj.sina.cn",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-07-22T02:10:38+00:00",
-      "aiNature": "偏利好",
-      "aiConfidence": "高",
-      "aiScope": "公司基本面",
-      "aiReason": "董事长提议最高8亿回购，海外贡献逾六成营收，显示公司治理积极及海外业务强劲。",
-      "aiImpact": "回购提议有助于提升市场信心，海外营收占比高反映业务国际化。",
-      "aiSuggestion": "关注回购计划落地及海外业务持续表现。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600111",
-      "sourceBucket": "domestic",
-      "title": "北方稀土：公司产品主要分为稀土原料产品、稀土新材料产品及稀土终端应用产品 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fdGI4b2Z3dmVWWE0wSnpkaU91WnVhMjE3QVNFTVhVNEJBMk5lQkdIbnp5N1huYlA4QWJleXEtdzRHdkhUMVk1R08wNlZTVURTTDdDdXBiTzVTV0YyQjNKMg?oc=5",
-      "domain": "wap.eastmoney.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-07-21T19:58:58+00:00",
-      "aiNature": "中性",
-      "aiConfidence": "高",
-      "aiScope": "公司基本面",
-      "aiReason": "产品结构说明，未涉及业绩或订单变化。",
-      "aiImpact": "无直接业绩影响。",
-      "aiSuggestion": "关注产品结构调整及业绩贡献。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -357,9 +321,9 @@
       "aiScope": "公司基本面",
       "aiReason": "公司致力于稀土全元素全品类研究应用，属于战略方向描述。",
       "aiImpact": "长期有利于业务拓展，但短期无量化影响。",
-      "aiSuggestion": "关注相关成果落地及业绩贡献。",
+      "aiSuggestion": "关注实际成果及业绩体现。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -373,11 +337,11 @@
       "aiNature": "中性",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "说明原料来源，未涉及成本或供应风险变化。",
-      "aiImpact": "无直接业绩影响。",
-      "aiSuggestion": "关注原料供应稳定性。",
+      "aiReason": "说明原料来源，未涉及业绩或成本变化。",
+      "aiImpact": "无直接影响。",
+      "aiSuggestion": "关注原料供应变化。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -388,14 +352,14 @@
       "language": "English",
       "sourcecountry": "",
       "seendate": "2026-07-21T10:36:35+00:00",
-      "aiNature": "无关",
+      "aiNature": "中性",
       "aiConfidence": "高",
       "aiScope": "无关",
-      "aiReason": "涉及三一重工国际控股CEO变动，未明确与A股上市公司三一重工直接关联。",
+      "aiReason": "涉及三一重装国际控股CEO变动，与三一重工A股上市公司无直接传导关系。",
       "aiImpact": "无清晰影响路径。",
-      "aiSuggestion": "关注集团层面公告，避免依据未证实关联作交易。",
+      "aiSuggestion": "关注A股公司公告，避免依据无关信息交易。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -406,14 +370,14 @@
       "language": "English",
       "sourcecountry": "",
       "seendate": "2026-07-21T09:18:56+00:00",
-      "aiNature": "无关",
+      "aiNature": "中性",
       "aiConfidence": "高",
       "aiScope": "无关",
-      "aiReason": "涉及三一重工国际控股CEO变动，未明确与A股上市公司三一重工直接关联。",
+      "aiReason": "涉及三一重装国际控股CEO变动，与三一重工A股上市公司无直接传导关系。",
       "aiImpact": "无清晰影响路径。",
-      "aiSuggestion": "关注集团层面公告，避免依据未证实关联作交易。",
+      "aiSuggestion": "关注A股公司公告，避免依据无关信息交易。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -427,11 +391,29 @@
       "aiNature": "偏利好",
       "aiConfidence": "中",
       "aiScope": "行业",
-      "aiReason": "中国稀土制造商推动新能与高端材料供应链，行业景气度提升。",
-      "aiImpact": "行业景气提升有利于北方稀土业务发展。",
-      "aiSuggestion": "关注行业景气度变化。",
+      "aiReason": "中国稀土制造商推动新能与高端材料供应链，利于行业需求。",
+      "aiImpact": "行业需求提升，利于北方稀土。",
+      "aiSuggestion": "关注行业发展及公司业务拓展。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600031",
+      "sourceBucket": "domestic",
+      "title": "三一重工：融资净偿还723.61万元，融资余额14.62亿元 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YQWpRck1qT0RIUGN4dGZZUlZkNEYtNTFBdFZ0NmR0RWdYVEpIMHdXYVRyZ0JId0lFcE55cElfcGlRcl9SN3J5NDBsT2xYUDZjdDNnUVY1d3NNMlIxRWxXVw?oc=5",
+      "domain": "wap.eastmoney.com",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-07-21T04:17:43+00:00",
+      "aiNature": "中性",
+      "aiConfidence": "中",
+      "aiScope": "市场交易",
+      "aiReason": "融资净偿还及余额数据，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期资金流动，无基本面影响。",
+      "aiSuggestion": "关注资金流动趋势，避免依据单条数据交易。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -444,12 +426,12 @@
       "seendate": "2026-07-20T13:09:11+00:00",
       "aiNature": "偏利好",
       "aiConfidence": "中",
-      "aiScope": "公司基本面",
-      "aiReason": "标题提及收入增长和基建需求支撑股价，显示行业需求较好。",
-      "aiImpact": "若收入增长属实，对公司基本面偏利好，但需关注具体数据。",
-      "aiSuggestion": "关注正式财报及行业需求变化。",
+      "aiScope": "行业",
+      "aiReason": "行业需求和公司收入增长被提及，可能通过行业景气度传导至公司。",
+      "aiImpact": "行业需求增长可能提升公司业绩。",
+      "aiSuggestion": "关注行业景气度及公司业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -459,33 +441,15 @@
       "domain": "wap.eastmoney.com",
       "language": "Chinese",
       "sourcecountry": "China",
-      "seendate": "2026-07-20T08:45:34+00:00",
+      "seendate": "2026-07-20T08:46:26+00:00",
       "aiNature": "偏利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "董事长提议4-8亿元回购股份，显示公司治理积极。",
-      "aiImpact": "回购提议有助于提升市场信心，但需关注实际执行情况。",
-      "aiSuggestion": "关注回购计划进展及公告确认。",
+      "aiReason": "董事长提议回购股份，通常表明公司对自身价值有信心，有助于提升每股收益和市场信心。",
+      "aiImpact": "回购股份可能改善股东结构、提升股价、增强市场信心。",
+      "aiSuggestion": "关注后续回购方案落地及公告进展，警惕短期波动。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600031",
-      "sourceBucket": "global",
-      "title": "Sany Heavy Industry Says Chairman Proposes A-Share Buyback - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFoyWWNMMFltOVc3c3RxSndnWmdHVFhpdWdvVWZUSmp6MW81dXhSejZMNjlMV1FvbzQybi16bGRqaVFfQVViZnlHSk9HZHBHRVZsMXlBSThPdkZDV0RfcjF2eTRWMjJZc29wVmgtX2k2QXhRREVqQ1NvMzN1eXZtUDFxSWFYeVFKSkJNZEdGN2tMX3JlMkVWU2NSMTRUS2M4RThzM1FxMTNJazA3OTRJeUg2Nm10cjZfMkFHaHcwTW5QcUhnZHdr?oc=5",
-      "domain": "tradingview.com",
-      "language": "English",
-      "sourcecountry": "",
-      "seendate": "2026-07-20T08:39:54+00:00",
-      "aiNature": "偏利好",
-      "aiConfidence": "高",
-      "aiScope": "公司基本面",
-      "aiReason": "董事长提议A股回购，显示公司治理积极。",
-      "aiImpact": "回购提议有助于提升市场信心，但需关注实际执行情况。",
-      "aiSuggestion": "关注回购计划进展及公告确认。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -499,11 +463,29 @@
       "aiNature": "偏利好",
       "aiConfidence": "中",
       "aiScope": "行业",
-      "aiReason": "中国对日本重稀土出口持续关闭，可能提升国内稀土企业议价能力。",
-      "aiImpact": "出口限制可能提升国内稀土价格和需求，利好北方稀土。",
-      "aiSuggestion": "关注政策持续性及价格变化。",
+      "aiReason": "中国对日本重稀土出口持续关闭，行业供给收紧。",
+      "aiImpact": "有利于国内稀土企业价格和议价能力。",
+      "aiSuggestion": "关注政策变化及行业传导。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600031",
+      "sourceBucket": "domestic",
+      "title": "三一重工的研发实力解读 - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPM3F0aDdIZlF0SHVTa2hRaWFqblFUYWZDNTVzd1NDeWk5Z3pWMHhGSW8xT0ZrQ2FVTXZPVm5KZWJEdkJ6cTcwVk9vSWQ0aXgtSmpoZ3Bmc2t2WFBGdkdxa2hzRHljOVJXdGRwdk1mekYyR0ZnVU4ydVZraEJsV3F4d09BUWoyT3FMM2Z6SkxXdlN1RWZVNUlxQ3lpWnFXWE5QSDRPQTkzd1U2dHkyclBjaTJDTTZBZ2pYUi1vNnVPNXhEX3lEZ2dwN0ZaM0VBTGozWFRHTmsydGFPMGxuYnNRTmszQk9GcExTd2tyZWwxODk1VnhPWlVwX1BOUGZ1ZE5uSlE?oc=5",
+      "domain": "caifuhao.eastmoney.com",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-07-20T07:55:00+00:00",
+      "aiNature": "中性",
+      "aiConfidence": "中",
+      "aiScope": "公司基本面",
+      "aiReason": "研发实力解读为分析性内容，未给出具体业绩或订单变化。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注公司研发进展及后续公告。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -515,13 +497,13 @@
       "sourcecountry": "",
       "seendate": "2026-07-20T02:53:48+00:00",
       "aiNature": "偏利好",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
       "aiReason": "重型机械股部分上涨，属于短期市场交易信号。",
       "aiImpact": "短期股价上涨，不能据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，关注基本面变化。",
+      "aiSuggestion": "关注行业动态，警惕短期波动。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -533,13 +515,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-20T02:53:00+00:00",
       "aiNature": "偏利好",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "重型机械股上涨，三一重工涨超7%，属于短期市场交易信号。",
+      "aiReason": "港股重型机械股上涨，三一重工涨超7%，属于短期市场交易信号。",
       "aiImpact": "短期股价上涨，不能据此推断基本面。",
       "aiSuggestion": "警惕短期波动，关注基本面变化。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -553,11 +535,11 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "预计半年度净利润同比增加112.74%-121.33%，业绩大幅提升已明确。",
-      "aiImpact": "业绩增长将显著提升公司盈利能力。",
+      "aiReason": "预计净利润同比大幅增长，业绩显著提升。",
+      "aiImpact": "增强公司基本面和市场信心。",
       "aiSuggestion": "关注正式业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -572,10 +554,10 @@
       "aiConfidence": "高",
       "aiScope": "公司基本面",
       "aiReason": "公司不存在应披露而未披露的重大信息，属于例行澄清。",
-      "aiImpact": "无实际业绩影响。",
+      "aiImpact": "无实质影响。",
       "aiSuggestion": "关注后续公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -589,29 +571,11 @@
       "aiNature": "中性",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "公布精矿价格属于例行信息披露，未涉及业绩变化。",
-      "aiImpact": "无直接业绩影响。",
-      "aiSuggestion": "关注价格变动及业绩影响。",
+      "aiReason": "仅公布精矿价格，未说明价格变动或影响。",
+      "aiImpact": "无直接影响。",
+      "aiSuggestion": "关注价格变动及业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
-    },
-    {
-      "stockCode": "600111",
-      "sourceBucket": "global",
-      "title": "JL MAG Rare-Earth is conducting R&D on motor rotors for embodied robots and has delivered small-batch products, building a diversified rare earth resource security system. - Shanghai Metals Market",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbXBEQUZEMEp1WlNadFNsNXVMWG9IYU94d1p2akEtRjVzMXdIckNlZUo2ZXRMYjFWMko5M2docVRkd0dRZlBpaXU4cXlTWkdqb0ItZzRwTi16R3RjaWxnQm5KSHVqbHRoVXBEbnhvS0tYWVNRbUd3QXh5ODB2QmpuamM1YURwa21VekM2UEVIOERneE05Nk1SREpteUJlZ3J4UnU3RGo4ZnE5Y0ZQUWhXRXhvWEc0VjFuZVp2dW8zU2Y2MmxJbEtCeUx1OXdfNFJZc1Nhc3p4UFVpSEVJLXlBd2pibktPZ2xGSEFSLUFESWlGaDJ0Nmt4UmZaaDQ?oc=5",
-      "domain": "news.metal.com",
-      "language": "English",
-      "sourcecountry": "",
-      "seendate": "2026-07-17T10:08:18+00:00",
-      "aiNature": "无关",
-      "aiConfidence": "高",
-      "aiScope": "无关",
-      "aiReason": "JL MAG为同行公司研发事项，未涉及北方稀土具体事项。",
-      "aiImpact": "无清晰传导路径。",
-      "aiSuggestion": "无需关注。",
-      "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -624,12 +588,30 @@
       "seendate": "2026-07-17T07:00:00+00:00",
       "aiNature": "中性",
       "aiConfidence": "高",
-      "aiScope": "市场交易",
-      "aiReason": "股东户数信息披露，未涉及资金流向或业绩变化。",
-      "aiImpact": "无直接业绩影响。",
-      "aiSuggestion": "关注股东结构变化。",
+      "aiScope": "公司基本面",
+      "aiReason": "披露股东户数，未涉及业绩或经营变化。",
+      "aiImpact": "无直接影响。",
+      "aiSuggestion": "关注后续股东结构变化。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600111",
+      "sourceBucket": "global",
+      "title": "China's Next Rare Earth Play: From Mining Giant to Defense Materials Powerhouse - Rare Earth Exchanges",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeXFsYmNBYWxFNnA3UVRUUmVBenBBcXBEejczUzNIdUdOc1J0X2MyY1dfMGFHOTlRODd5cWRBdm85eDJfSC1lU1NKaVdPMFFTczZxaU1iTF9yd1h1c2tXalpOWlZLaU1KR2xLUkR3aTBPS21PUW9TQzNUV2FmT1BnY3RnaDJRTDJ6T0NBNk5RZ0pWTEEwN214eUFybDRYV0JVS1V3anAydHJkNXoteC1IVHVnVFU?oc=5",
+      "domain": "rareearthexchanges.com",
+      "language": "English",
+      "sourcecountry": "",
+      "seendate": "2026-07-16T14:25:20+00:00",
+      "aiNature": "偏利好",
+      "aiConfidence": "中",
+      "aiScope": "行业",
+      "aiReason": "中国稀土行业向高端材料和国防领域转型，利于行业需求。",
+      "aiImpact": "行业需求提升，利于北方稀土。",
+      "aiSuggestion": "关注行业发展及公司业务拓展。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -643,11 +625,11 @@
       "aiNature": "偏利好",
       "aiConfidence": "中",
       "aiScope": "行业",
-      "aiReason": "IEA警告中国稀土出口管制影响全球生产，可能提升国内稀土企业议价能力。",
-      "aiImpact": "出口管制可能提升国内稀土价格和需求，利好北方稀土。",
-      "aiSuggestion": "关注政策落地及价格变化。",
+      "aiReason": "IEA警告中国稀土出口管制影响全球生产，利于国内企业议价能力。",
+      "aiImpact": "行业供给收紧，利于北方稀土。",
+      "aiSuggestion": "关注政策变化及行业传导。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -661,11 +643,11 @@
       "aiNature": "中性",
       "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "大宗交易金额有限，未显示明显资金流向或价格影响。",
-      "aiImpact": "短期交易信号，无法推断基本面。",
+      "aiReason": "大宗交易成交金额有限，未说明方向。",
+      "aiImpact": "短期交易信号，无基本面影响。",
       "aiSuggestion": "警惕短期波动，避免依据单条交易数据操作。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -676,14 +658,14 @@
       "language": "Chinese",
       "sourcecountry": "China",
       "seendate": "2026-07-15T09:40:32+00:00",
-      "aiNature": "无法判断",
+      "aiNature": "中性",
       "aiConfidence": "中",
       "aiScope": "公司基本面",
-      "aiReason": "仅提及临时股东会决议，未说明决议内容及对公司影响。",
-      "aiImpact": "需等待决议具体内容公告。",
-      "aiSuggestion": "关注后续决议公告，避免依据未披露内容交易。",
+      "aiReason": "仅为临时股东会决议，未说明具体决议内容及对公司基本面的影响。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注后续详细公告，避免依据单条未证实消息交易。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -697,11 +679,11 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "预计上半年净利同比增长112.74%-121.33%，业绩大幅提升已明确。",
-      "aiImpact": "业绩大幅增长将显著提升公司盈利能力和市场认可度。",
-      "aiSuggestion": "关注正式业绩公告及增长持续性。",
+      "aiReason": "预计上半年净利同比增长112.74%-121.33%，为重大业绩提升。",
+      "aiImpact": "业绩大幅增长将显著提升公司盈利能力和市场信心。",
+      "aiSuggestion": "关注正式业绩公告及后续经营动态。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -715,11 +697,11 @@
       "aiNature": "偏利好",
       "aiConfidence": "中",
       "aiScope": "行业",
-      "aiReason": "IEA称中国稀土出口管制威胁西方产业，可能提升中国稀土企业议价能力。",
-      "aiImpact": "出口管制可能提升国内稀土价格和需求，利好北方稀土。",
-      "aiSuggestion": "关注政策落地及价格变化。",
+      "aiReason": "中国稀土出口管制被认为威胁全球产业链，可能提升国内稀土企业议价能力。",
+      "aiImpact": "行业供给收紧，利于北方稀土等国内企业。",
+      "aiSuggestion": "关注政策变化及行业传导。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -733,11 +715,11 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "净利润大幅增长，主要产品产量创新高，业绩提升已明确。",
-      "aiImpact": "业绩增长将显著提升公司盈利能力。",
+      "aiReason": "净利润大幅增长，产量创新高，业绩显著提升。",
+      "aiImpact": "增强公司盈利能力和市场信心。",
       "aiSuggestion": "关注正式业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -751,11 +733,11 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "半年度业绩预增公告，业绩大幅提升已明确。",
-      "aiImpact": "业绩增长将显著提升公司盈利能力。",
+      "aiReason": "业绩预增公告，净利润同比大幅增长。",
+      "aiImpact": "业绩提升将增强公司基本面。",
       "aiSuggestion": "关注正式业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -767,13 +749,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-14T14:13:46+00:00",
       "aiNature": "中性",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "大宗交易属于市场交易行为，未涉及公司基本面变化。",
-      "aiImpact": "短期可能影响流动性或股价，但无法据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作基本面判断。",
+      "aiReason": "大宗交易属于市场交易行为，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期流动性变化，无基本面影响。",
+      "aiSuggestion": "警惕短期波动，避免依据单条交易数据作决策。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -787,11 +769,11 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "上半年净利润同比增长112.74%-121.33%，业绩大幅提升已明确。",
-      "aiImpact": "业绩增长将显著提升公司盈利能力。",
+      "aiReason": "净利润同比大幅增长，业绩显著提升。",
+      "aiImpact": "增强公司盈利能力和市场信心。",
       "aiSuggestion": "关注正式业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -805,11 +787,11 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "上半年净利预增112.74%-121.33%，业绩大幅提升已明确。",
-      "aiImpact": "业绩增长将显著提升公司盈利能力。",
+      "aiReason": "净利预增112.74%-121.33%，为重大业绩利好。",
+      "aiImpact": "显著提升公司盈利能力。",
       "aiSuggestion": "关注正式业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -823,16 +805,16 @@
       "aiNature": "明显利好",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "上半年净利润同比增长112.7%-121.3%，业绩大幅提升已明确。",
-      "aiImpact": "业绩增长将显著提升公司盈利能力。",
+      "aiReason": "净利润同比大幅增长，业绩显著提升。",
+      "aiImpact": "增强公司盈利能力和市场信心。",
       "aiSuggestion": "关注正式业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
       "sourceBucket": "domestic",
-      "title": "三一重工：不存在应披露而未披露的重大事项 - finance.sina.com.cn",
+      "title": "三一重工：不存在应披露而未披露的重大事项 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03WDJ2T0FVUVBWTDdDUFN2OEtSTHlPdUk3ZVByNTR0Nml3amFDMXJDa0VSbDBxVEJxLTVWOTFDdXAxbkNWM1dkcEJ6VHZCM0JjSVdmaEZlZFlZdlJEVTQ0N2pWMHV3TXhUOEVNc3F3?oc=5",
       "domain": "cj.sina.cn",
       "language": "Chinese",
@@ -841,11 +823,11 @@
       "aiNature": "中性",
       "aiConfidence": "高",
       "aiScope": "公司基本面",
-      "aiReason": "公司声明不存在应披露而未披露的重大事项，未涉及利好或利空。",
-      "aiImpact": "无直接影响。",
-      "aiSuggestion": "关注后续公告。",
+      "aiReason": "公司声明不存在应披露而未披露的重大事项，属于例行信息披露。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注后续公告，无需据此作交易决策。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -860,10 +842,10 @@
       "aiConfidence": "高",
       "aiScope": "公司基本面",
       "aiReason": "生产经营平稳有序，属于例行经营状态说明。",
-      "aiImpact": "无直接业绩影响。",
+      "aiImpact": "无实质影响。",
       "aiSuggestion": "关注后续经营动态。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -875,13 +857,13 @@
       "sourcecountry": "China",
       "seendate": "2026-07-11T11:07:42+00:00",
       "aiNature": "中性",
-      "aiConfidence": "高",
+      "aiConfidence": "中",
       "aiScope": "市场交易",
-      "aiReason": "融资净买入及余额数据为市场交易信号，未涉及基本面变化。",
-      "aiImpact": "短期资金流入，不能据此推断基本面。",
-      "aiSuggestion": "警惕短期波动，关注基本面信息。",
+      "aiReason": "融资净买入及余额数据，未说明对公司基本面有直接影响。",
+      "aiImpact": "仅为短期资金流动，无基本面影响。",
+      "aiSuggestion": "关注资金流动趋势，避免依据单条数据交易。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -897,9 +879,9 @@
       "aiScope": "公司基本面",
       "aiReason": "磁材公司顺利实现“双过半”表明生产经营进度良好。",
       "aiImpact": "生产进度达标有助于业绩实现，提升公司经营稳定性。",
-      "aiSuggestion": "关注全年业绩完成情况。",
+      "aiSuggestion": "关注全年业绩进展及后续公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -913,11 +895,11 @@
       "aiNature": "无关",
       "aiConfidence": "高",
       "aiScope": "无关",
-      "aiReason": "ReElement为稀土初创企业，未涉及北方稀土具体事项。",
-      "aiImpact": "无清晰传导路径。",
-      "aiSuggestion": "无需关注。",
+      "aiReason": "ReElement放弃美国政府贷款，未涉及北方稀土。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注行业动态。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -932,10 +914,28 @@
       "aiConfidence": "高",
       "aiScope": "公司基本面",
       "aiReason": "稀土精矿交易价格环比下降0.62%，可能影响公司收入和利润。",
-      "aiImpact": "精矿价格下调直接影响公司产品销售收入和盈利能力。",
-      "aiSuggestion": "关注后续价格变动及对业绩的具体影响。",
+      "aiImpact": "精矿价格下调可能导致公司产品销售收入减少，利润承压。",
+      "aiSuggestion": "关注后续价格变动及公司业绩公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
+    },
+    {
+      "stockCode": "600111",
+      "sourceBucket": "domestic",
+      "title": "北方稀土大宗交易成交343.84万元 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhOGpRdXd6dWVrRFZKaVhVdFkwV1ZDOVdLbDZRbDB3eTE5XzdyRjBqV3ljam5sbU9PUTNvdEhJMVdKUzQ1ZnJtcFhtR1h2YUdvNlRla21yVDhGU1ctdnhwMw?oc=5",
+      "domain": "wap.eastmoney.com",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-07-09T07:00:00+00:00",
+      "aiNature": "中性",
+      "aiConfidence": "中",
+      "aiScope": "市场交易",
+      "aiReason": "大宗交易成交金额有限，未说明方向。",
+      "aiImpact": "短期交易信号，无基本面影响。",
+      "aiSuggestion": "警惕短期波动，避免依据单条交易数据操作。",
+      "aiModel": "openai/gpt-4.1",
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600031",
@@ -946,14 +946,14 @@
       "language": "English",
       "sourcecountry": "",
       "seendate": "2026-07-04T18:42:00+00:00",
-      "aiNature": "偏利好",
+      "aiNature": "中性",
       "aiConfidence": "中",
       "aiScope": "公司基本面",
-      "aiReason": "公司提出全球设备扩张目标，显示国际化战略。",
-      "aiImpact": "若落地可提升海外收入，但标题未确认具体落地情况。",
-      "aiSuggestion": "关注后续战略落地及公告确认。",
+      "aiReason": "公司全球设备战略为分析性内容，未给出具体业绩或订单变化。",
+      "aiImpact": "无清晰影响路径。",
+      "aiSuggestion": "关注公司全球战略进展及后续公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     },
     {
       "stockCode": "600111",
@@ -969,9 +969,9 @@
       "aiScope": "公司基本面",
       "aiReason": "资源与技术壁垒属于公司优势描述，未涉及具体业绩或订单变化。",
       "aiImpact": "提升核心竞争力，但未有量化影响。",
-      "aiSuggestion": "关注实际业绩和竞争力转化情况。",
+      "aiSuggestion": "关注实际业绩及相关公告。",
       "aiModel": "openai/gpt-4.1",
-      "aiAnalyzedAt": "2026-07-26T09:01:55.601270+00:00"
+      "aiAnalyzedAt": "2026-07-27T03:58:56.115896+00:00"
     }
   ],
   "errors": []
