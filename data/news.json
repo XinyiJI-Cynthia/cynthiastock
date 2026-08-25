@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:49:46.369378+00:00",
+  "generatedAt": "2026-08-25T08:57:12.707692+00:00",
   "articles": [
     {
       "stockCode": "600031",
@@ -178,22 +178,6 @@
       "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
     },
     {
-      "stockCode": "600031",
-      "sourceBucket": "domestic",
-      "title": "中国工程机械产业加速迈向全球高端市场 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYllZbFJRUDJnbDNFM25oSE9obG9fa3JOOE1TUmNiMzk0c1NfYUdNaWNqSVcwbUxRZU52elg2bnU3Q3BnOF95OW9UamlUT3FiUXpfVkppN3ZCMUIwUHNiSUJhdjdZX2ZJNTlNR250VHFOUjl5LVVQZ1MzTUJKNDJvaEwzdWVSalJfa1gwbQ?oc=5",
-      "domain": "m.sohu.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-08-20T09:18:00+00:00",
-      "aiNature": "无法判断",
-      "aiConfidence": "低",
-      "aiScope": "待核验",
-      "aiReason": "AI分析任务尚未返回有效结果。",
-      "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
-      "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
-    },
-    {
       "stockCode": "600111",
       "sourceBucket": "domestic",
       "title": "北方稀土：2026年半年度归属于上市公司股东的净利润同比增长120.46% - 东方财富",
@@ -274,22 +258,6 @@
       "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
     },
     {
-      "stockCode": "600111",
-      "sourceBucket": "domestic",
-      "title": "千亿元稀土龙头业绩炸裂！北方稀土上半年净利同比翻倍，市值一度创上市新高，章建平退出十大股东名单 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VeUVKODFPbEdYMnBvaVlLRkVFRDQ5eVlXNXQ5N0lJekE3UFlKUG44MFJWclhMV2tRYWViemZyV2xxLUpNdXRucjZhdjhqTk1WUS02ckRzWXlWY1BHRDh2dQ?oc=5",
-      "domain": "wap.eastmoney.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-08-19T21:39:51+00:00",
-      "aiNature": "无法判断",
-      "aiConfidence": "低",
-      "aiScope": "待核验",
-      "aiReason": "AI分析任务尚未返回有效结果。",
-      "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
-      "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
-    },
-    {
       "stockCode": "600031",
       "sourceBucket": "global",
       "title": "Mechanical engineering: Sany wants to export entire industries - Table.Briefings",
@@ -314,6 +282,22 @@
       "language": "English",
       "sourcecountry": "",
       "seendate": "2026-08-19T16:22:04+00:00",
+      "aiNature": "无法判断",
+      "aiConfidence": "低",
+      "aiScope": "待核验",
+      "aiReason": "AI分析任务尚未返回有效结果。",
+      "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
+      "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
+    },
+    {
+      "stockCode": "600031",
+      "sourceBucket": "domestic",
+      "title": "中国工程机械产业加速迈向全球高端市场 - 封面新闻",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15RFU3ek1qM3JvU0hwQXVxcUpmc0xlRTl6cW5SY3dNMGdCSjBwY2NpWnB4S2FKdUF0dDJadG9mSHBubUxldjBiTS1hV1k1Z0x1cHh2LVJ3d0gwMTdPYWlfa2dUUFY3V2NHaDV4cnl5VE0xT1FUTV9N?oc=5",
+      "domain": "m.thecover.cn",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-08-19T15:55:00+00:00",
       "aiNature": "无法判断",
       "aiConfidence": "低",
       "aiScope": "待核验",
@@ -372,6 +356,22 @@
     {
       "stockCode": "600111",
       "sourceBucket": "domestic",
+      "title": "图解财报：北方稀土上半年归母净利润20.53亿元，同比增长120.46% - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAzZHh6U0htUkltYWNoVEpleVBZQ0ZNNG5sZGpxU0JCeFZFMWFnUWFQSmhlclVlVkVCNy11RmZ2M2R5UTh5b2hHb0t6UDNJeTM3UmQ4MDZLc3FuT0E4RjN5QmVKaGtodw?oc=5",
+      "domain": "finance.eastmoney.com",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-08-19T10:36:26+00:00",
+      "aiNature": "无法判断",
+      "aiConfidence": "低",
+      "aiScope": "待核验",
+      "aiReason": "AI分析任务尚未返回有效结果。",
+      "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
+      "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
+    },
+    {
+      "stockCode": "600111",
+      "sourceBucket": "domestic",
       "title": "北方稀土半年报显示章建平退出十大股东名单 一季度曾位列第四大股东 - 东方财富",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYMG1KZEQwdDk2UHJQcV8zV25yX2lTcjl2NkZxUFh4YkF5NDZWdkYwNVk2R0hFYTMxNHRBaTJlZzlqcmRmNWhDYmQxUXJGWHM1S29mSzFKNFlLbTlkWDhxMA?oc=5",
       "domain": "wap.eastmoney.com",
@@ -419,6 +419,22 @@
     },
     {
       "stockCode": "600111",
+      "sourceBucket": "domestic",
+      "title": "18:15:25【北方稀土：2026年半年度净利润同比增长120%】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YdTh1Q2lDVkwxcmJNbC1tdVd2Y3RyYzlxRl9JbjJCbU54YjV4bXpWcVJqLUxEMHZzT0Q3MDlheFRfbG16QXdqNA?oc=5",
+      "domain": "cls.cn",
+      "language": "Chinese",
+      "sourcecountry": "China",
+      "seendate": "2026-08-19T10:15:25+00:00",
+      "aiNature": "无法判断",
+      "aiConfidence": "低",
+      "aiScope": "待核验",
+      "aiReason": "AI分析任务尚未返回有效结果。",
+      "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
+      "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
+    },
+    {
+      "stockCode": "600111",
       "sourceBucket": "global",
       "title": "Laos identifies two new rare earth target areas across four provinces - The Star",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcnF4QkdRbDJCdVdfaU5OYjctbzhQWHdDNVhkY2JwOWl0am9vQXEwd1loeVZCUzhQakM5OVc0RFcydW5CSDlHV0lJZXZOdHMxdm9hOXg3dGh5RFpfai16Y0xSX3pLQlFVenIybjVfeU9FSE14dVg1VnYxTWNDaFJzTzJFb2RCOW15QzAyaHltWVo5cll6bmJDRGZGN1ZXTndnYVhJZ2xzNS11Mk9DSGVJNGt2NW9KVjhRTC1aRENzdGt6MnJUOTVOZ0JDSGI?oc=5",
@@ -436,7 +452,7 @@
     {
       "stockCode": "600031",
       "sourceBucket": "domestic",
-      "title": "三一重工：回购节奏系综合结合二级市场行情、公司经营规划等因素审慎安排 - 新浪财经",
+      "title": "三一重工：回购节奏系综合结合二级市场行情、公司经营规划等因素审慎安排 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJeVRheW1WQ3doWlZxTUxkakdEemNKbkRTc3VFaXBpXzE1UDFtRnFGT0NVTDc3TVdHOHRBV2JndDM1NDlqYUQzdlFOUkFVeWZfOEdtU3pGRmxaZ0xUWE9QcmpTLTNtZUhpT0VYN1NB?oc=5",
       "domain": "cj.sina.cn",
       "language": "Chinese",
@@ -455,22 +471,6 @@
       "title": "北方稀土2026年半年度归母净利润同比增长120.46% - 东方财富",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tcjVaRFBUVXhWMVZVM3Y2ZS1ETVBNc3pwU3ZtYmJtTUlXZnpyVWo5dWJUUGtVaG1XRDZMODdocEswM0c4VTRyakZ0NmZwaXQ2SlBrRURkVlo5ZC1SMWh5ZA?oc=5",
       "domain": "wap.eastmoney.com",
-      "language": "Chinese",
-      "sourcecountry": "China",
-      "seendate": "2026-08-19T07:00:00+00:00",
-      "aiNature": "无法判断",
-      "aiConfidence": "低",
-      "aiScope": "待核验",
-      "aiReason": "AI分析任务尚未返回有效结果。",
-      "aiImpact": "现有信息不足，不能判断对公司基本面或股价的影响。",
-      "aiSuggestion": "等待原文或公司公告确认，不依据该条信息交易。"
-    },
-    {
-      "stockCode": "600111",
-      "sourceBucket": "domestic",
-      "title": "北方稀土：2026年半年度净利润同比增长120% - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LTUdISVFIR1pmLVFDTjRDd0lSQ2t1aFpQSUNkeGtNZXJOQlhzX2dLcF9zYnc2aFNReXQ4LTViYl9zM1B2VmJLUmlVaFR6NG9vbmtSbzlmel81Z2lTczhUUm5YUGlzZw?oc=5",
-      "domain": "finance.eastmoney.com",
       "language": "Chinese",
       "sourcecountry": "China",
       "seendate": "2026-08-19T07:00:00+00:00",
@@ -532,7 +532,7 @@
     {
       "stockCode": "600031",
       "sourceBucket": "domestic",
-      "title": "三一重工遭Schroders PLC减持183.3万股 每股作价约20.79港元 - 新浪财经",
+      "title": "三一重工遭Schroders PLC减持183.3万股 每股作价约20.79港元 - finance.sina.com.cn",
       "url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxOR1UxUDZoYUFkMURseXVWVFUwalNtUW5oc1h3Z09fV3Z2aXdWUmNYR3FBX1c3RnNqazFZZ1NoSmJBRnRoQW55bkhMNUFUTkNveTl5YmF4bU83eThlcE9SR3B3dkM4SnVRdVBkZWFGWUdZOHo1NG1FWF9DSlh0WkRaS2tSWUl6SWZ4SnV2SG4tNGx3cXlOMHdidFQ5N1JCNDFTY0ROVzJUbi1fRDhwVTlPR1NJdGNfQ0N2SktQSnJ6ZjVKN1ZPVDB4NkJUaFhjN3pHSWVYeENxVHI2cjFVUkxtc1NBTHl5cExkQS1wY1BWTmNWZmQxSmxSS09kOGhQX1RaWlRpNTZyVkhBckpEeXU1ZkVjTjFsb3NHYTJNa3Z2ci04dlUwbnI5TkNsUnNSSXBVU0hLanFBR01tUkxHZEd2S0tCRkRKNkJlTHpWbjlOWThDa1VHelYyVkFvQWx0amFxZXhLZGJUbmxnenl2SXN5LXJhUGtTUzVIQVVfVmxCQ0cxSWNsNzVlOG5FN0kxem5VeW5JMGlPMU9lYklOY0ZneXQ5bjJRTGFMcnBxRFpaSFhnc0diYkYyWWxzUTl4ZWh2d190S1JnMkJ3cDNoaVFLQ19sSUlnUkl6RkE1N0gtUjNybkI5X1BaWnRhS3hSbzNWV01LcHM0Nk5BVVJQM3RYQ05nbmVvVENQNnp4OHpNQU1sdnBkdUpRVmtlcWRuMk1NSXk0eGs2QlNXRnNKaE9ibThLT005bnlUMVA4V3lzS1M4SmJ0YTJSX0hpWjZxS1JDeTBVa0VpaHJlT1RQVEtXNzlZT204Z2l5and5RHg5cGVyYnp1Wm1n?oc=5",
       "domain": "finance.sina.cn",
       "language": "Chinese",
